@@ -177,8 +177,12 @@ nav a:hover{
 
 footer{
     display:flex;
+    padding-top: 1%;
+    padding-left: 29%;
+    padding-right: 29%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: aliceblue;
 }
