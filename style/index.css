@@ -53,9 +53,24 @@ table {
     border:1px solid rgb(83, 83, 83);
 }
 
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    font-family: 'Libre Baskerville', serif;
+    line-height:1.5;
+}
+
 header{
     display:flex;
     flex-direction: column;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size:5rem;
 }
 
 a{
@@ -67,6 +82,7 @@ nav{
     display:flex;
     justify-content:left;
 }
+
 nav a{
     display:inline-block;
     border-radius:10px;
@@ -84,7 +100,7 @@ nav a{
 }
 
 .contactBtn{
-    background-color:#45f14b;
+    background-color:#31a53b;
 }
 
 .projectsBtn{
