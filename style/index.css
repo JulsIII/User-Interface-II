@@ -50,7 +50,7 @@ table {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid rgb(83, 83, 83);
+    /*border:1px solid #666666;*/
 }
 
 html{
@@ -93,7 +93,7 @@ nav{
 
 nav a{
     display:inline-block;
-    border-radius:15px;
+    border-radius:1px;
     text-align:center;
     padding:1% 2%;
     color:#000000;
@@ -103,26 +103,33 @@ nav a{
     background-color:#293d63;
     margin-left:5%;
     color: aliceblue;
+    width: 160px;
+    
 }
 
 .aboutBtn{
     background-color:#80acdf;
+    width: 125px;
 }
 
 .contactBtnA{
     background-color:#80acdf;
+    width: 125px;
 }
 
 .contactBtnB{
     background-color:#80acdf;
+    width: 100px;
 }
 
 .projectsBtnA{
     background-color:#80acdf;
+    width: 125px;
 }
 
 .projectsBtnB{
     background-color:#80acdf;
+    width: 150px;
 }
 
 .imgNormalize{
@@ -144,6 +151,7 @@ nav a{
     display:flex;
     flex-direction: column;
     color: aliceblue;
+    padding: 5%;
 }
 
 .SecB{
