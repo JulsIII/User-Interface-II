@@ -186,3 +186,10 @@ footer{
     text-align: center;
     color: aliceblue;
 }
+
+footer a:hover{
+    border-radius:1px;
+    text-align:center;
+    color:#ffffff;
+    background-color: rgb(99, 128, 182);
+}
