@@ -59,8 +59,9 @@ html{
 
 body{
     font-size:1.6rem;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Yantramanav', sans-serif;
     line-height:1.5;
+    background-color: #353d42;
 }
 
 header{
@@ -71,6 +72,13 @@ header{
 h1{
     font-family: 'Kaushan Script', cursive;
     font-size:5rem;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size:2rem;
+    color: aliceblue;
 }
 
 a{
@@ -85,32 +93,47 @@ nav{
 
 nav a{
     display:inline-block;
-    border-radius:10px;
+    border-radius:15px;
     text-align:center;
     padding:1% 2%;
-    color:rgb(0, 0, 0);
+    color:#000000;
 }
 
 .homeBtn{
-    background-color:#4eeaff;
+    background-color:#293d63;
+    margin-left:5%;
+    color: aliceblue;
 }
 
 .aboutBtn{
-    background-color:#d45eeb;
+    background-color:#80acdf;
 }
 
-.contactBtn{
-    background-color:#31a53b;
+.contactBtnA{
+    background-color:#80acdf;
 }
 
-.projectsBtn{
-    background-color:#6980ff;
+.contactBtnB{
+    background-color:#80acdf;
+}
+
+.projectsBtnA{
+    background-color:#80acdf;
+}
+
+.projectsBtnB{
+    background-color:#80acdf;
+}
+
+.imgNormalize{
+    width:35%;
 }
 
 .SecA{
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color:#576b81;
 }
 
 .SecA1{
@@ -120,6 +143,7 @@ nav a{
 .SecA2{
     display:flex;
     flex-direction: column;
+    color: aliceblue;
 }
 
 .SecB{
@@ -127,6 +151,9 @@ nav a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #576b81;
+    color: aliceblue;
+    
 }
 
 footer{
@@ -134,4 +161,5 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
 }
